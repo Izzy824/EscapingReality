@@ -1,20 +1,92 @@
+
+/*for all pages*/
 body {
-	
-    background-image: url("https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA17563-1920x1200.jpg");
+	background-image: url("https://www.jpl.nasa.gov/spaceimages/images/wallpaper/PIA17563-1920x1200.jpg");
     background-size: 100% 100%;            
     background-repeat: no-repeat;
     height:1000px;
     background-attachment: fixed
-}
+	}
 
+/*for all pages*/
 body, h1, h2, h3, h4, h5, h6 {
   font-family:'Open Sans Condensed', sans-serif;;
   font-weight: 700;
   color: #FFFFFF;
 }
 
-button {position: relative;
-		left:67%;
-		margin-left: -200px;
-		margin-right:-200px;
-    }
+/*for first page*/
+.homebutton {
+	-moz-box-shadow: 3px 4px 0px 0px #d6b2d2;
+	-webkit-box-shadow: 3px 4px 0px 0px #d6b2d2;
+	box-shadow: 3px 4px 0px 0px #d6b2d2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fd9ef3), color-stop(1, #fd9ef3));
+	background:-moz-linear-gradient(top, #fd9ef3 5%, #fd9ef3 100%);
+	background:-webkit-linear-gradient(top, #fd9ef3 5%, #fd9ef3 100%);
+	background:-o-linear-gradient(top, #fd9ef3 5%, #fd9ef3 100%);
+	background:-ms-linear-gradient(top, #fd9ef3 5%, #fd9ef3 100%);
+	background:linear-gradient(to bottom, #fd9ef3 5%, #fd9ef3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fd9ef3', endColorstr='#fd9ef3',GradientType=0);
+	background-color:#fd9ef3;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Open Sans Condensed', sans-serif;;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f2c4eb; 
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	left: 50%;
+	top: 45%;
+	margin-top: -15px;   
+	margin-left: -100px; 
+	position: fixed;  
+}
+
+.button2 {
+	-moz-box-shadow: 3px 4px 0px 0px #d6b2d2;
+	-webkit-box-shadow: 3px 4px 0px 0px #d6b2d2;
+	box-shadow: 3px 4px 0px 0px #d6b2d2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fd9ef3), color-stop(1, #fd9ef3));
+	background:-moz-linear-gradient(top, #fd9ef3 5%, #fd9ef3 100%);
+	background:-webkit-linear-gradient(top, #fd9ef3 5%, #fd9ef3 100%);
+	background:-o-linear-gradient(top, #fd9ef3 5%, #fd9ef3 100%);
+	background:-ms-linear-gradient(top, #fd9ef3 5%, #fd9ef3 100%);
+	background:linear-gradient(to bottom, #fd9ef3 5%, #fd9ef3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fd9ef3', endColorstr='#fd9ef3',GradientType=0);
+	background-color:#fd9ef3;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Open Sans Condensed', sans-serif;;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f2c4eb; 
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	left: 50%;
+	top: 45%;
+	margin-top: -15px;   
+	margin-left: -100px; 
+	position: fixed;  
+}
+
+
+
+
+
+
+
